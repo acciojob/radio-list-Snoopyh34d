@@ -1,5 +1,5 @@
-/* Style the radio buttons on even positions */
-input[type="radio"]:nth-child(4n+2), input[type="radio"]:nth-child(4n) {
+/* Style the label for radio buttons on even positions */
+label:nth-child(even) input[type="radio"] {
     accent-color: red;
 }
 
